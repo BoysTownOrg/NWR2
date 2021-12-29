@@ -65,7 +65,7 @@ var NWRitems = [
     "Ditkazufhib",
 ];
 var twocolumns = function(myjson, mid, end) {
-    tmpstr = "";
+    var tmpstr = "";
     tmpstr +=
         '<div style="display:flex; font-size: x-large;"><div style="flex: 50%;  padding: 50px; line-height: 0.6;">';
     for (i = 0; i < mid; i++) {
@@ -80,7 +80,7 @@ var twocolumns = function(myjson, mid, end) {
     return tmpstr;
 };
 var threecolumns = function(myjson, first, second, end) {
-    tmpstr = "";
+    var tmpstr = "";
     tmpstr +=
         '<div style="display:flex; font-size: smaller;"><div style="flex: 50%;  padding: 50px; line-height: 0.3;">';
     for (i = 0; i < first; i++) {
@@ -99,7 +99,7 @@ var threecolumns = function(myjson, first, second, end) {
     return tmpstr;
 };
 var fourcolumns = function(myjson, first, second, third, end) {
-    tmpstr = "";
+    var tmpstr = "";
     tmpstr +=
         '<div style="display:flex; font-size: x-large;"><div style="flex: 50%;  padding: 50px; line-height: 0.6;">';
     for (i = 0; i < first; i++) {
