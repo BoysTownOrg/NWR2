@@ -68,11 +68,11 @@ var twocolumns = function(myjson, mid, end) {
     var tmpstr = "";
     tmpstr +=
         '<div style="display:flex; font-size: x-large;"><div style="flex: 50%;  padding: 50px; line-height: 0.6;">';
-    for (i = 0; i < mid; i++) {
+    for (let i = 0; i < mid; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += '</div><div style="flex: 50%; padding: 50px; line-height: 0.6; " >';
-    for (i = mid; i < end; i++) {
+    for (let i = mid; i < end; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += "</div></div>";
@@ -83,15 +83,15 @@ var threecolumns = function(myjson, first, second, end) {
     var tmpstr = "";
     tmpstr +=
         '<div style="display:flex; font-size: smaller;"><div style="flex: 50%;  padding: 50px; line-height: 0.3;">';
-    for (i = 0; i < first; i++) {
+    for (let i = 0; i < first; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += '</div><div style="flex: 50%; padding: 50px; line-height: 0.3; " >';
-    for (i = first; i < second; i++) {
+    for (let i = first; i < second; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += '</div><div style="flex: 50%; padding: 50px; line-height: 0.3; " >';
-    for (i = second; i < end; i++) {
+    for (let i = second; i < end; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += "</div></div>";
@@ -102,19 +102,19 @@ var fourcolumns = function(myjson, first, second, third, end) {
     var tmpstr = "";
     tmpstr +=
         '<div style="display:flex; font-size: x-large;"><div style="flex: 50%;  padding: 50px; line-height: 0.6;">';
-    for (i = 0; i < first; i++) {
+    for (let i = 0; i < first; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += '</div><div style="flex: 50%; padding: 50px; line-height: 0.6; " >';
-    for (i = first; i < second; i++) {
+    for (let i = first; i < second; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += '</div><div style="flex: 50%; padding: 50px; line-height: 0.6; " >';
-    for (i = second; i < third; i++) {
+    for (let i = second; i < third; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += '</div><div style="flex: 50%; padding: 50px; line-height: 0.6; " >';
-    for (i = third; i < end; i++) {
+    for (let i = third; i < end; i++) {
         tmpstr += "<p>" + myjson[i] + "</p>";
     }
     tmpstr += "</div></div>";
