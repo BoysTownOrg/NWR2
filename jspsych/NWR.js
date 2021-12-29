@@ -1,6 +1,7 @@
 //import "./jspsych-image-audio-response-with-animation.js";
 //import "./jspsych-audio-keyboard-response.js";
 //import "./NWRead_items_verified20211228.js";
+var practice = ["jilb", "mup", "frin", "lisk", "glavmep", "reripab"];
 var NWRitems = [
     "Hain",
     "Squoaff",
