@@ -1,4 +1,4 @@
-var NWRitems = [
+export var NWRitems = [
     "Hain",
     "Squoaff",
     "Mulph",
