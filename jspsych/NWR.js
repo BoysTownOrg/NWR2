@@ -1,6 +1,6 @@
 //import "./jspsych-image-audio-response-with-animation.js";
 //import "./jspsych-audio-keyboard-response.js";
-import { NWRitems } from "./NWRead_items_verified20211228.js";
+import "./NWRead_items_verified20211228.js";
 var twocolumns = function(myjson, mid, end) {
     tmpstr = "";
     tmpstr +=
