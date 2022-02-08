@@ -50,7 +50,7 @@ var NWRitems = [
     "Nupmin",
     "Simftulp",
     "Giskrin",
-    "sizblin",
+    "Sizblin",
     "Dituf",
     "Hilnduz",
     "Wuvmilb",
